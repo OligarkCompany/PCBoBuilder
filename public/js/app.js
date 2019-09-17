@@ -102,7 +102,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+  el: '#app'
+});
 
 /***/ }),
 
@@ -8337,7 +8339,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.fade-enter-active,\r\n.fade-leave-active {\r\n  transition: opacity 0.1s;\n}\n.fade-enter,\r\n  .fade-leave-to\r\n  /* .fade-leave-active in <2.1.8 */\r\n\r\n {\r\n  opacity: 0;\n}\r\n", ""]);
+exports.push([module.i, "\n.fade-enter-active,\n.fade-leave-active {\n  transition: opacity 0.1s;\n}\n.fade-enter,\n  .fade-leave-to\n  /* .fade-leave-active in <2.1.8 */\n\n {\n  opacity: 0;\n}\n", ""]);
 
 // exports
 
@@ -10837,7 +10839,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { class: { "nav-open": _vm.$sidebar.showSidebar } },
+    { class: { "nav-open": _vm.$sidebar.showSidebar }, attrs: { id: "app" } },
     [_c("notifications"), _vm._v(" "), _c("router-view")],
     1
   )
@@ -34136,8 +34138,8 @@ function view(name) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Proyectos\Freelos\Bob\PCBoBuilder\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Proyectos\Freelos\Bob\PCBoBuilder\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/interconnecta/Documents/PCBoBuilder/pcbobuilder/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/interconnecta/Documents/PCBoBuilder/pcbobuilder/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

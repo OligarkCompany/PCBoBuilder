@@ -33,6 +33,7 @@
 <div class="wrapper" id="app">
 
 </div>
+<script src="{{ mix('js/app.js') }}"></script>
 <!-- built files will be auto injected -->
 <!--  Google Maps Plugin    -->
 <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAamVCoyQ4AuvBpxVRMs9P-HFkfPVQj0Kw" type="text/javascript"></script>

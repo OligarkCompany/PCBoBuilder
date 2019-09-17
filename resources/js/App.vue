@@ -1,12 +1,13 @@
 <template>
-  <div :class="{'nav-open': $sidebar.showSidebar}">
+  <div id="app" :class="{'nav-open': $sidebar.showSidebar}">
     <notifications></notifications>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-    export default {   
+    export default {
+      el: '#app',
     }
 </script>
 
